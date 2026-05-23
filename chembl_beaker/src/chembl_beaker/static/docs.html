@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <title>REST API</title>
+<head>
+
+<link href="static/bootstrap-combined.min.css" rel="stylesheet">
+<script src="static/jquery-1.9.1.min.js"></script>
+<script src="static/jquery-migrate-1.2.0.min.js"></script>
+<script src="static/jquery-ui-1.8.custom.min.js"></script>
+<script src="static/jquery.mousewheel.js"></script>
+<script src="static/bootstrap.min.js"></script>
+<script src="static/raphael.min.js"></script>
+<script src="static/jquery.base64.js"></script>
+<script src="static/markdown.min.js"></script>
+<script src="static/vkbeautify.js"></script>
+<script src="static/canvasmol.js"></script>
+<script src="static/spore.js"></script>
+<link rel="shortcut icon" href="static/favicon.png"/>
+<link href="static/docs.css" rel="stylesheet">
+<link rel="stylesheet" href="static/zenburn.min.css">
+<script src="static/highlight.min.js"></script>
+<script type="text/javascript">
+var api;
+$(function() {
+   spore.debug(true);
+   spore.create('spore',function(a){api=a;},'','servicelist');
+});
+
+function ClipboardCopyInit(control, text) {
+    var status = $('.clipboardStatus', $(control).closest('.restapiholderresponse'));
+    var dummy = document.createElement("textarea");
+    document.body.appendChild(dummy);
+    dummy.value = text;
+    dummy.select();
+    document.execCommand("copy");
+    document.body.removeChild(dummy);
+    status.text('copied');
+    status.show();
+    status.fadeOut(2000);
+}
+
+</script>
+</head>
+<body>
+        <div class="offset1" id="servicelist"></div>
+</body>
+</html>
