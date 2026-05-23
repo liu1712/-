@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("../fonts/fontawesome-webfont.woff?v=local-20260523") format("woff"),
+       url("../fonts/fontawesome-webfont.ttf?v=local-20260523") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#action-mp-bond-single { background-image: url("../img/bond/single.svg?v=local-20260523"); }
+#action-mp-bond-double { background-image: url("../img/bond/double.svg?v=local-20260523"); }
+#action-mp-bond-triple { background-image: url("../img/bond/triple.svg?v=local-20260523"); }
+#action-mp-bond-wedge { background-image: url("../img/bond/wedge.svg?v=local-20260523"); }
+#action-mp-bond-hash { background-image: url("../img/bond/hash.svg?v=local-20260523"); }
+#action-mp-frag-benzene { background-image: url("../img/frag/benzene.svg?v=local-20260523"); }
+#action-mp-frag-cyclopropane { background-image: url("../img/frag/cyclopropane.svg?v=local-20260523"); }
+#action-mp-frag-cyclobutane { background-image: url("../img/frag/cyclobutane.svg?v=local-20260523"); }
+#action-mp-frag-cyclopentane { background-image: url("../img/frag/cyclopentane.svg?v=local-20260523"); }
+#action-mp-frag-cyclohexane { background-image: url("../img/frag/cyclohexane.svg?v=local-20260523"); }
+#action-mp-frag-cycloheptane { background-image: url("../img/frag/cycloheptane.svg?v=local-20260523"); }
+#action-mp-chain { background-image: url("../img/action/chain.svg?v=local-20260523"); }
+#action-mp-clear { background-image: url("../img/action/clear.svg?v=local-20260523"); }
+#action-mp-eraser { background-image: url("../img/action/erase.svg?v=local-20260523"); }
+#action-mp-drag { background-image: url("../img/action/move.svg?v=local-20260523"); }
+#action-mp-undo { background-image: url("../img/action/undo.svg?v=local-20260523"); }
+#action-mp-redo { background-image: url("../img/action/redo.svg?v=local-20260523"); }
+#action-mp-rect { background-image: url("../img/action/rect.svg?v=local-20260523"); }
+#action-mp-lasso { background-image: url("../img/action/lasso.svg?v=local-20260523"); }
+#action-mp-color-mode { background-image: url("../img/action/color.svg?v=local-20260523"); }
+#action-mp-skeletal-formula { background-image: url("../img/action/skeletal-off.svg?v=local-20260523"); }
+#action-mp-center { background-image: url("../img/action/center.svg?v=local-20260523"); }
+#action-mp-clean { background-image: url("../img/action/clean.svg?v=local-20260523"); }
